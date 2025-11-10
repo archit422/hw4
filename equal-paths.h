@@ -12,7 +12,7 @@ struct Node {
     int key;
     Node *left, *right;
     // Constructor for convenience
-    Node(int k, Node* lt = nullptr, Node* rt = nullptr) :
+    Node(int k, Node* lt = nullptr, Node* rt = nullptr):
         key(k), left(lt), right(rt)
     {}
 };
